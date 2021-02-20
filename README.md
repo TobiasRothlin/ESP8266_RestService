@@ -17,7 +17,9 @@ With this implemented I then just need to make Siri shortcuts which call the res
 ## Result:
 #### Hardware
 Final Hardware
+
 ![Final Hardware](Readme_ImgAssets/RestService-1-2.jpg)
 
 Hardware Schematic
+
 ![Schematic](Readme_ImgAssets/Schematic.svg)
