@@ -20,6 +20,6 @@ Final Hardware
 
 ![Final Hardware](Readme_ImgAssets/RestService-1-2.jpg)
 
-Hardware Schematic
+Apple shortcuts (works with siri)
 
-![Schematic](Readme_ImgAssets/Schematic.svg)
+![Schematic](Readme_ImgAssets/SimpleAppleShortcut.jpeg)
