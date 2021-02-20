@@ -6,10 +6,10 @@ I did not just want to replace the controller but give it some more functionalit
 
 ## Task:
 To be able to control the shutters from my phone or Siri I need to implement a rest service with four functions.
->ShutterUP/
->ShutterDown/
->ShutterStop/
->getSensorValue
+>"ShutterUP" /
+> "ShutterDown" /
+> "ShutterStop" /
+> "getSensorValue"
 
 As a response I want to get the room temperature and humidity and the state of the shutter
 With this implemented I then just need to make Siri shortcuts which call the rest service functions.
@@ -20,4 +20,4 @@ Final Hardware
 ![Final Hardware](Readme_ImgAssets/RestService-1-2.jpg)
 
 Hardware Schematic
-![Schematic](ImgAssets_Readme/Schematic.svg)
+![Schematic](Readme_ImgAssets/Schematic.svg)
