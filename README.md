@@ -6,9 +6,9 @@ I did not just want to replace the controller but give it some more functionalit
 
 ## Task:
 To be able to control the shutters from my phone or Siri I need to implement a rest service with four functions.
->ShutterUP
->ShutterDown
->ShutterStop
+>ShutterUP/
+>ShutterDown/
+>ShutterStop/
 >getSensorValue
 
 As a response I want to get the room temperature and humidity and the state of the shutter
