@@ -1,10 +1,18 @@
 # Rest Service EPS8266
 
 ## Context:
-Philips Hue smart lamps have been steadily rising in popularity. As I replaced my traditional light bulbs with new Philips Hue lamps, I ran into the problem that my traditional light switches did no longer work with the new lamps. As these switches turn of power to the lamp and so the lamp cannot be turned on from the app.
+Our old shutter control unit broke down. This controller could receive basic switch inputs and then switched three relays which then controlled the shutters.
+I did not just want to replace the controller but give it some more functionality, like being able to lower the shutters from my phone or even via a Siri command. Also it would be great to measure the temperature and humidity in the room. 
 
 ## Task:
-The traditional lamp switches have to be adapted to work with the Philips Hue lamps. Traditional lamp switches function like toggle buttons and the lamp functions as a state indicator. As an example, if the light is turned on and the button is pressed the light must be turned off. 
+To be able to control the shutters from my phone or Siri I need to implement a rest service with four functions.
+>ShutterUP
+>ShutterDown
+>ShutterStop
+>getSensorValue
+
+As a response I want to get the room temperature and humidity and the state of the shutter
+With this implemented I then just need to make Siri shortcuts which call the rest service functions.
 
 ## Result:
 #### Hardware
